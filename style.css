@@ -1,0 +1,226 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  width: 100%;
+  overflow-y: auto;
+  overflow-x: hidden;
+  height: auto;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+}
+.search {
+  position: relative;
+}
+.search #text {
+  background: rgb(0, 102, 255);
+  color: #fff;
+  border: 0;
+  font-size: 18px;
+  padding: 18px;
+  height: 30px;
+  width: 50px;
+  outline: none;
+  transition: width 0.9s ease;
+}
+
+.btn {
+  background: rgb(0, 102, 255);
+  color: #fff;
+  border: 0;
+  padding: 10px;
+  font-size: 16px;
+  outline: none;
+  cursor: pointer;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 50px;
+  transition: transform 1s ease;
+}
+.search.active #text {
+  width: 200px;
+}
+.search.active .btn {
+  margin-left: 5px;
+  transform: translateX(200px);
+}
+nav {
+  /* position: fixed; */
+  /* left: 0; */
+  z-index: 100;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.nav2 {
+  /* position: fixed; */
+  /* left: 0; */
+  z-index: 100;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.nav3 {
+  /* position: fixed; */
+  /* left: 0; */
+  z-index: 100;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.nav4 {
+  /* position: fixed; */
+  /* left: 0; */
+  z-index: 100;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.card {
+  background: #555;
+  color: #fff;
+  border-radius: 20px;
+  padding: 10px;
+  position: relative;
+  top: 0;
+  right: 110%;
+  transition: translate 3s ease;
+}
+.cardo {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  background: #555;
+  color: #fff;
+  border-radius: 20px;
+  padding: 10px;
+  position: relative;
+  right: 110%;
+  transition: translate 3s ease;
+}
+.cardp {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  background: #555;
+  color: #fff;
+  border-radius: 20px;
+  padding: 10px;
+  position: relative;
+  right: 110%;
+  transition: translate 3s ease;
+}
+.carda {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  background: #555;
+  color: #fff;
+  border-radius: 20px;
+  padding: 10px;
+  position: relative;
+  right: 180%;
+  transition: translate 3s ease;
+}
+
+.card2 {
+  transform: translateX(529%);
+  transition: all 1s ease-in;
+}
+.cardS {
+  transform: translateX(470%);
+  transition: all 1s ease-in;
+}
+.cardB {
+  transform: translateX(445%);
+  transition: all 1s ease-in;
+}
+.cardA {
+  transform: translateX(490%);
+  transition: all 1s ease-in;
+}
+.cardN {
+  transform: translateX(675%);
+  transition: all 1s ease-in;
+}
+.cardF {
+  transform: translateX(700%);
+  transition: all 1s ease-in;
+}
+.cardXo {
+  transform: translateX(310%);
+  transition: all 1s ease-in;
+}
+.cardNa {
+  transform: translateX(675%);
+  transition: all 1s ease-in;
+}
+.cardSu {
+  transform: translateX(700%);
+  transition: all 1s ease-in;
+}
+.cardJi {
+  transform: translateX(310%);
+  transition: all 1s ease-in;
+}
+.cardSi {
+  transform: translateX(675%);
+  transition: all 1s ease-in;
+}
+.cardQa {
+  transform: translateX(700%);
+  transition: all 1s ease-in;
+}
+
+.card img {
+  width: 100%;
+  height: 30vh;
+}
+.card p {
+  text-justify: distribute;
+  padding-bottom: 20px;
+}
+.cardo img {
+  width: 100%;
+  height: 30vh;
+}
+.cardo p {
+  text-justify: distribute;
+  padding-bottom: 20px;
+}
+.cardp img {
+  width: 100%;
+  height: 30vh;
+}
+.cardp p {
+  text-justify: distribute;
+  padding-bottom: 20px;
+}
+.carda img {
+  width: 100%;
+  height: 30vh;
+}
+.carda p {
+  text-justify: distribute;
+  padding-bottom: 20px;
+}
+h1{
+  text-align: center;
+}
+
+/* .bg {
+  background: url(./Island.jpg);
+  position: absolute;
+  top: -30px;
+  left: -30px;
+  width: calc(100vw + 60px);
+  height: calc(100vh + 60px);
+  background-size: cover;
+  z-index: -1;
+  filter: blur(0px);
+}
+.loading-text {
+  font-size: 50px;
+  color: #fff;
+} */
