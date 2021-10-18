@@ -129,27 +129,29 @@ nav {
   transition: all 1s ease-in;
 }
 .cardS {
-  transform: translateX(470%);
+  transform: translateX(515%);
   transition: all 1s ease-in;
 }
 .cardB {
-  transform: translateX(445%);
+  transform: translateX(490%);
+  transition: all 1s ease-in;
+}
+/*  */
+.cardF {
+  transform: translateX(860%);
+  transition: all 1s ease-in;
+}
+.cardN {
+  transform: translateX(515%);
   transition: all 1s ease-in;
 }
 .cardA {
   transform: translateX(490%);
   transition: all 1s ease-in;
 }
-.cardN {
-  transform: translateX(675%);
-  transition: all 1s ease-in;
-}
-.cardF {
-  transform: translateX(700%);
-  transition: all 1s ease-in;
-}
+/*  */
 .cardXo {
-  transform: translateX(310%);
+  transform: translateX(530%);
   transition: all 1s ease-in;
 }
 .cardNa {
@@ -157,10 +159,11 @@ nav {
   transition: all 1s ease-in;
 }
 .cardSu {
-  transform: translateX(700%);
+  transform: translateX(330%);
   transition: all 1s ease-in;
 }
-.cardJi {
+/*  */
+/* .cardJi {
   transform: translateX(310%);
   transition: all 1s ease-in;
 }
@@ -169,9 +172,9 @@ nav {
   transition: all 1s ease-in;
 }
 .cardQa {
-  transform: translateX(700%);
+  transform: translateX(500%);
   transition: all 1s ease-in;
-}
+} */
 
 .card img {
   width: 100%;
